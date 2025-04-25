@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    
+
+    <title>Adix Tech</title>
+    
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="project pictures/logo.png" alt="Adix logo">
+            </div>
+
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>                    
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main>
+        <div class="container">
+          <div class="content">
+            <h1>Adix Technologies.</h1>
+            <p class="tagline">Crafting Seamless Front-End Experiences</p>
+            <p class="description">
+              <span>Hello! Welcome to My website</span>, I specialize in delivering modern, responsive, and user-friendly front-end solutions.
+              With strong expertise in HTML, CSS, JavaScript, and popular frameworks like React and Vue.js, I bring designs to life
+              with clean code and seamless user experiences. Backed by solid experience in front-end development, I'm passionate
+              about building interfaces that are not only visually engaging but also highly functional and performance-optimized.
+            </p>
+            <div class="cta-button">
+              <button onclick="window.location.href='contact.html';">Contact</button>
+            </div>
+          </div>
+          <div class="my-image">
+            <img src="project pictures/20240124_101558.jpg" alt="My Image">
+          </div>
+        </div>
+      </main>
+      
+      <footer>
+        <div class="footer-wrapper">
+          <p>&copy; 2025 Adix Technologies. All rights reserved.</p>
+      
+          <div class="social-links">
+            <a href="https://github.com/prince-coderr" target="_blank" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://wa.me/254115253171" target="_blank" aria-label="WhatsApp">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://linkedin.com/in/samuel-adi-3683592b2" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+      
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+      
+
+    
+  <script>
+    function toggleMenu() {
+        document.querySelector('.links').classList.toggle('active');
+        document.querySelector('.menu-toggle i').classList.toggle('fa-times');
+    }
+</script>
+   
+    
+    
+</body>
+</html>
